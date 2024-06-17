@@ -13,6 +13,4 @@ File `pg-format-valid.json` contains an array of test cases with keys:
 
 File `pg-format-invalid.json` contains an object mapping invalid PG Format documents to informal descriptions of the test case.
 
-## Examples
-
 Directory `examples` contains sample documents in PG Format (`*.pg`) and PG-JSON (`*.json`). Applications are expected to parse each `NAME.pg` into the graph given in file `NAME.json`.
