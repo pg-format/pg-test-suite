@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "\t",
+      "labels": [
+        "\u0001"
+      ],
+      "properties": {}
+    },
+    {
+      "id": "\"",
+      "labels": [
+        "\""
+      ],
+      "properties": {
+        "\"": [
+          "\""
+        ]
+      }
+    },
+    {
+      "id": "()",
+      "labels": [
+        "()"
+      ],
+      "properties": {
+        "()": [
+          "()"
+        ]
+      }
+    },
+    {
+      "id": "0",
+      "labels": [
+        "label1"
+      ],
+      "properties": {
+        "x": [
+          "y"
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "labels": [
+        "1"
+      ],
+      "properties": {
+        "1": [
+          1,
+          "1"
+        ]
+      }
+    },
+    {
+      "id": "2.3",
+      "labels": [
+        "2.3e2"
+      ],
+      "properties": {
+        "2.3": [
+          23,
+          "2.3"
+        ]
+      }
+    },
+    {
+      "id": "\\",
+      "labels": [
+        "\\"
+      ],
+      "properties": {
+        "\\": [
+          "\\"
+        ]
+      }
+    },
+    {
+      "id": "\\\"",
+      "labels": [
+        "\\\""
+      ],
+      "properties": {
+        "\\\"": [
+          "\\\""
+        ]
+      }
+    },
+    {
+      "id": "a",
+      "labels": [
+        "person"
+      ],
+      "properties": {
+        "foo": [
+          "bar",
+          ""
+        ]
+      }
+    },
+    {
+      "id": "c,",
+      "labels": [],
+      "properties": {
+        "foo:bar": [
+          "doz"
+        ]
+      }
+    },
+    {
+      "id": "false",
+      "labels": [
+        "false"
+      ],
+      "properties": {
+        "false": [
+          false,
+          "false"
+        ],
+        "FALSE": [
+          "FALSE"
+        ]
+      }
+    },
+    {
+      "id": "null",
+      "labels": [
+        "null"
+      ],
+      "properties": {
+        "null": [
+          "null",
+          "null"
+        ],
+        "NULL": [
+          "NULL"
+        ]
+      }
+    },
+    {
+      "id": "true",
+      "labels": [
+        "true"
+      ],
+      "properties": {
+        "true": [
+          true,
+          "true"
+        ],
+        "TRUE": [
+          "TRUE"
+        ]
+      }
+    },
+    {
+      "id": "x",
+      "labels": [],
+      "properties": {}
+    },
+    {
+      "id": "y",
+      "labels": [],
+      "properties": {}
+    }
+  ],
+  "edges": [
+    {
+      "from": "x",
+      "to": "y",
+      "labels": [],
+      "properties": {
+        "a": [
+          "b"
+        ],
+        "c": [
+          "d"
+        ]
+      }
+    }
+  ]
+}
