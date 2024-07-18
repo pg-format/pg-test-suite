@@ -26,9 +26,7 @@
     "pg": "a,b",
     "about": "node id with comma",
     "graph": {
-      "nodes": [
-        { "id": "a,b", "labels": [], "properties": {} }
-      ],
+      "nodes": [ { "id": "a,b", "labels": [], "properties": {} } ],
       "edges": []
     }
   },
@@ -136,5 +134,51 @@
     "pg": "a\uFEFFb",
     "formatted": "a\uFEFFb",
     "about": "zero-width space is no space"
+  },
+  {
+    "pg": "'\\\"'",
+    "graph": { "nodes": [ { "id": "\"", "labels": [], "properties": {} } ], "edges": [] }
+  },
+  {
+    "pg": "\"\\\"\"",
+    "graph": { "nodes": [ { "id": "\"", "labels": [], "properties": {} } ], "edges": [] }
+  },
+  {
+    "pg": "'\\''",
+    "graph": { "nodes": [ { "id": "'", "labels": [], "properties": {} } ], "edges": [] }
+  },
+  {
+    "pg": "\"\\'\"",
+    "graph": { "nodes": [ { "id": "'", "labels": [], "properties": {} } ], "edges": [] }
+  },
+  {
+    "pg": "a: b -> c",
+    "graph": {
+      "nodes": [
+        { "id": "b", "labels": [], "properties": {} }, 
+        { "id": "c", "labels": [], "properties": {} } 
+      ],
+      "edges": [ {"id": "a", "from": "b", "to": "c", "labels": [], "properties": {} } ]
+    }
+  },
+  {
+    "pg": "\"a\": b -> c",
+    "graph": {
+      "nodes": [
+        { "id": "b", "labels": [], "properties": {} }, 
+        { "id": "c", "labels": [], "properties": {} } 
+      ],
+      "edges": [ {"id": "a", "from": "b", "to": "c", "labels": [], "properties": {} } ]
+    }
+  },
+  {
+    "pg": "a:b: b -> c",
+    "graph": {
+      "nodes": [
+        { "id": "b", "labels": [], "properties": {} }, 
+        { "id": "c", "labels": [], "properties": {} } 
+      ],
+      "edges": [ {"id": "a:b", "from": "b", "to": "c", "labels": [], "properties": {} } ]
+    }
   }
 ]

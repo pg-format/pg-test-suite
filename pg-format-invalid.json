@@ -39,5 +39,6 @@
   "a b : true":     "space before/after colon of property",
   "a b:c :d":       "space before/after colon of property",
   "a --b":          "Missing whitespace after direction",
-  "a b:c:d b:c :d": "label after properties"
+  "a b:c:d b:c :d": "label after properties",
+  "1: a -> b\n1: a -> b": "Repeated edge identifier"
 }
