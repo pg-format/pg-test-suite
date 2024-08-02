@@ -46,8 +46,8 @@
     {
       "id": "node",
       "labels": [
-        "label1",
-        "another:label"
+        "another:label",
+        "label1"
       ],
       "properties": {}
     },

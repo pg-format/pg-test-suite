@@ -8,7 +8,7 @@
   }],
   "edges": [{
     "from": "101", "to": "102", "undirected": true,
-    "labels": [ "same_school", "same_class" ], "properties": { "since": [ 2012 ] }
+    "labels": [ "same_class", "same_school" ], "properties": { "since": [ 2012 ] }
    },{
     "from": "101", "to": "102",
     "labels": [ "likes" ], "properties": { "engaged": [ false ], "since": [ 2015 ] }

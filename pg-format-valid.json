@@ -180,5 +180,12 @@
       ],
       "edges": [ {"id": "a:b", "from": "b", "to": "c", "labels": [], "properties": {} } ]
     }
+  },
+  {
+    "pg": "a :01 x:42 x:foo x:true",
+    "graph": {
+      "nodes": [ { "id": "a", "labels": ["01"], "properties": { "x": [42,"foo",true] } } ],
+      "edges": []
+    }
   }
 ]
