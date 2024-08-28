@@ -187,5 +187,12 @@
       "nodes": [ { "id": "a", "labels": ["01"], "properties": { "x": [42,"foo",true] } } ],
       "edges": []
     }
+  },
+  {
+    "pg": "a key:2#comment",
+    "graph": {
+      "nodes": [ { "id": "a", "labels": [], "properties": { "key": [2] } } ],
+      "edges": []
+    }
   }
 ]
