@@ -26,6 +26,7 @@
   "x -":            "invalid label or property key",
   "x k:":           "missing property value",
   "x k:\"xy":       "invalid property value",
+  "a k :v":         "disallowing space between property key and colon",
   "-> x":           "expected identifier",
   ":a":             "node ID starting with colon",
   ":":              "colon as node ID",

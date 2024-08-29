@@ -194,5 +194,29 @@
       "nodes": [ { "id": "a", "labels": [], "properties": { "key": [2] } } ],
       "edges": []
     }
+  },
+  {
+    "pg": "a,a k,k:v,w",
+    "about": "Commas are allowed after the second character of unquoted IDs and property keys",
+    "graph": {
+      "nodes":[{"id":"a,a","labels":[],"properties":{"k,k":["v","w"]}}],
+      "edges": []
+    }
+  },
+  {
+    "pg": "a' k':v'",
+    "about": "Apostrophes are allowed after the second character of unquoted IDs and property keys",
+    "graph": {
+      "nodes":[{"id":"a'","labels":[],"properties":{"k'":["v'"]}}],
+      "edges": []
+    }
+  },
+  {
+    "pg": "; ;:;",
+    "about": "Semicolon is allowed in unuqoted strings",
+    "graph": {
+      "nodes":[{"id":";","labels":[],"properties":{";":[";"]}}],
+      "edges": []
+    }
   }
 ]
