@@ -218,5 +218,12 @@
       "nodes":[{"id":";","labels":[],"properties":{";":[";"]}}],
       "edges": []
     }
+  },
+  {
+    "pg": "a key:#comment\n  1.0e+2",
+    "graph": {
+      "nodes":[{"id":"a","labels":[],"properties":{"key":[100]}}],
+      "edges": []
+    }
   }
 ]
